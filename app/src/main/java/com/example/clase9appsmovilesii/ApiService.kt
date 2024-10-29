@@ -9,6 +9,6 @@ interface ApiService {
     @GET
     suspend fun getImagesByBreed(@Url url: String): Response<BreedResponse>
 
-    /*@GET
-    suspend fun getListOfBreeds(@Url url: String): Response<BreedsResponse>*/
+    @GET
+    suspend fun getListOfBreeds(@Url url: String): Response<BreedsResponse>
 }
